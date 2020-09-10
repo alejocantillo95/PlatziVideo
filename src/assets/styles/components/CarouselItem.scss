@@ -1,0 +1,57 @@
+.carrousel_item{
+  display: inline-block;
+  cursor: pointer;
+  /* background-color: tomato; */
+  width: 200px;
+  min-width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 450ms all;
+  transform-origin: center;
+  position: relative;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carrousel_item:hover ~ .carrousel_item{
+  transform: translate3d(50px, 0, 0);
+}
+
+.carrousel-item__img{
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.carrousel-item__details{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  font-size: 10px;
+  opacity: 1;
+  transition: 450ms opacity;
+  padding: 10px;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  font-family: Muli;
+  font-size: 15px;
+}
+
+.botones{
+  width: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  /* border: 1px red solid; */
+}
+
+.carrousel-item__details--title{
+  margin: 0;
+}
+
+.carrousel-item__details--subtitle{
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+.main{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__title{
+  color: white;
+  font-size: 40px;
+}
