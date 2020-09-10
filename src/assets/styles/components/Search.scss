@@ -9,4 +9,29 @@
 .main__title{
   color: white;
   font-size: 40px;
+  font-family: Muli;
+
+}
+
+.input{
+  width: 70%;
+  max-width: 1240px;
+  height: 50px;
+  border: 2px white solid;
+  border-radius: 25px;
+  background-color: #5c2a9d;
+  color: white;
+  font-family: Muli;
+  font-size: 16px;
+  padding: 0px 20px;
+  outline: 0px;
+  margin-bottom: 40px;
+}
+
+.input:focus{
+  background-color: #331758;
+}
+
+::placeholder{
+  color: white;
 }

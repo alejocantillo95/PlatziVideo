@@ -13,7 +13,7 @@ const App = () => (
     <Header />
     <Search />
     
-    <Categories>
+    <Categories title="Mi Lista">
       <Carousel>
         <CarouselItem />
         <CarouselItem />
